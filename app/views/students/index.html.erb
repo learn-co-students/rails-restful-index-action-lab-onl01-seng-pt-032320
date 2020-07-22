@@ -1,0 +1,5 @@
+<% if !@students.blank? %>
+  <% for student in @students %>
+	<h2><%= student.first_name %></h2>
+  <% end %>
+<% end %>
