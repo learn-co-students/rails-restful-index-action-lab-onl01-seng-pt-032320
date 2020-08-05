@@ -1,8 +1,8 @@
 class StudentsController < ApplicationController
 
-    def 'index' 
+    def index
         #maps to index axtion
-        @students = Students.all
+        @students = Student.all
     end
 
 end
